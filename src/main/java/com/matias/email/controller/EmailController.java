@@ -15,7 +15,7 @@ public class EmailController {
 
   @GetMapping
   public void prueba() {
-    emailService.sendMessage("unity.matias@outlook.com", "Prueba", "Mensaje");
+    emailService.sendMessage("addressee@outlook.com", "Title", "Message");
   }
 
 }
